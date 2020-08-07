@@ -118,25 +118,14 @@
                         return;
 
                     clearCursor();
-
-                        timeouts.push(setTimeout(function () {
-
-                            if (app.skippedIntro)
-                                return;
-
-                            clearCursor();
-
-                            setTimeout(function () {
-
-                                skipIntro();
-
-                            }, 500);
-
-                        }, 1000));
-
         });
 
     })()
+
+    var discordalert = function () {
+
+        alert("rixan#5267 - feel free to add me.")
+    }
 
     var skipIntro = function () {
 
