@@ -143,9 +143,8 @@
         if (app.skippedIntro)
             return;
         
-    var discordname = function () {
-    
-        Alert("rixan#5267 - feel free to add me.")
+    var discordalert = function () {
+        alert("rixan#5267 - feel free to add me.")
     }
  
         app.skippedIntro = true;
