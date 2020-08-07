@@ -105,7 +105,6 @@
 
     (function () {
         $.getJSON('https://api.ipgeolocation.io/ipgeo?apiKey=1785ed53312f42c7b5ef89f65c3faa1a', function (data) {
-
                 if (app.skippedIntro)
                 	return;
 
@@ -116,6 +115,7 @@
                         return;
 
                     clearCursor();
+					skipIntro();
         });
 
     })()
