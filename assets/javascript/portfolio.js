@@ -120,13 +120,7 @@
 
     })()
 
-    var discordalert = function () {
-
-        alert("rixan#5267 - feel free to add me.")
-    }
-
     var skipIntro = function () {
-
         if (app.skippedIntro)
             return;
         
