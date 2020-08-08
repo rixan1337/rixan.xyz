@@ -15,7 +15,7 @@ var _app = function () {
         "torrent master",
         "hobby video cutter",
         "hobby photographer",
-		"discord: rixan#5267"
+	"discord: rixan#5267"
     ];
 
     this.titleChanger = function (text, delay) {
