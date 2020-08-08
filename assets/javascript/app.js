@@ -11,10 +11,11 @@ var _app = function () {
     this.brandDescription = [
         "paster",
         "minecrafter",
-        "flyboys player",
+        "csgo player",
         "torrent master",
         "hobby video cutter",
-        "hobby photographer"
+        "hobby photographer",
+		"discord: rixan#5267"
     ];
 
     this.titleChanger = function (text, delay) {

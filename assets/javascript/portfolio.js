@@ -75,10 +75,6 @@
         skipIntro();
     });
 
-    $(".discordname").click(function () {
-        discordalert();
-    });
-
     $.fn.extend({
         animateCss: function (animationName) {
             var animationEnd = 'webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend';
@@ -123,10 +119,6 @@
     var skipIntro = function () {
         if (app.skippedIntro)
             return;
-        
-    var discordalert = function () {
-        alert("rixan#5267 - feel free to add me.")
-    }
  
         app.skippedIntro = true;
 
