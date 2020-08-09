@@ -10,9 +10,7 @@ var _app = function () {
     this.effects = ["bounce", "flash", "pulse", "rubberBand", "shake", "swing", "tada", "wobble", "jello"];
     this.brandDescription = [
         "paster",
-        "minecrafter",
         "csgo player",
-        "torrent master",
         "hobby video cutter",
         "hobby photographer",
 	"discord: rixan#5267"
